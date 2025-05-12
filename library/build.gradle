@@ -5,7 +5,6 @@ buildscript {
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'idea'
 
 android {
     compileSdkVersion 23
@@ -21,13 +20,6 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_7
         targetCompatibility JavaVersion.VERSION_1_7
-    }
-}
-
-idea {
-    module {
-        downloadJavadoc = true
-        downloadSources = true
     }
 }
 
